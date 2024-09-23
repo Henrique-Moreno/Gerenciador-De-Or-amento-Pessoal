@@ -23,7 +23,9 @@ Para testar o projeto na sua maquina, siga os passos abaixo:
 Certifique-se de ter o Node.js instalado. Em seguida, instale as dependências do projeto com o comando:
 
 > Acesse seu terminal e execute:
-npm install
+ 
+    ```
+    npm install
 
 ### 3. Configure o Firebase
 Acesse o Firebase Console e crie um novo projeto.
@@ -34,17 +36,21 @@ Ative o provedor "Google".
 Copie as configurações do seu projeto (API Key, Auth Domain, etc.) e cole no arquivo firebase.js na pasta src do seu projeto:
 
 #### javascript
-const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMINIO",
-  projectId: "SEU_PROJETO_ID",
-  storageBucket: "SEU_BUCKET",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
-};
+    ```
+    const firebaseConfig = {
+      apiKey: "SUA_API_KEY",
+      authDomain: "SEU_DOMINIO",
+      projectId: "SEU_PROJETO_ID",
+      storageBucket: "SEU_BUCKET",
+      messagingSenderId: "SEU_SENDER_ID",
+      appId: "SEU_APP_ID"
+    };
 
 4. Inicie o aplicativo
 Após configurar o Firebase, inicie o aplicativo no terminal com o comando:
 
+> Acesse seu terminal e execute:
+
+```
 npm run dev
 
