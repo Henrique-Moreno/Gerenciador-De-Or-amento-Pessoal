@@ -16,7 +16,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Instalação
 
-Para testar o projeto localmente, siga os passos abaixo:
+Para testar o projeto na sua maquina, siga os passos abaixo:
 
 
 ### 2. Instale as dependências
